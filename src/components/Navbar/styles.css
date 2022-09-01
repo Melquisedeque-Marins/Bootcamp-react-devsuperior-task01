@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #00285f;
+}
+
+.container-fluid {
+    padding: 20px;
+    padding-right: 24px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.navbar {
+    padding: 0;
+}
+
+.navbar h4 {
+  font-size: 24px;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,40,95,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  font-size: 1.2em;
+}
+
+.navbar-toggler {
+    padding: 0;
+}
+
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    width: 170px;
+}
+
+.active {
+    font-weight: 700;
+}
+
+@media (min-width: 762px) {
+    .collapse{
+        display: flex;
+        justify-content: flex-end;
+    
+    }
+
+    .container-fluid {
+        padding: 20px 24px;
+    }
+
+}
+@media (min-width: 1280px) {
+
+    .container-fluid {
+        padding: 20px 150px;
+    }
+}
