@@ -1,11 +1,18 @@
 import './assets/styles/custom.scss';
 import './App.css';
+
+import CarCard from 'components/CarCard';
+import Catalogo from 'pages/Catalogo';
 import Navbar from 'components/Navbar';
-import Home from 'pages/Home';
+import SearchButton from 'components/SearchButton';
 
 function App() {
   return (
-   <Home/>
+    <>
+    <Navbar />
+    <Catalogo />
+        
+    </>
   );
 }
 

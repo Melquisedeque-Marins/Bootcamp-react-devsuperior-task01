@@ -8,8 +8,14 @@ a {
   color: #00285f;
 }
 
+.navbar {
+  padding: 0;
+  height: 70px;
+}
+
+
 .container-fluid {
-    padding: 20px;
+    padding-left: 20px;
     padding-right: 24px;
     display: flex;
     justify-content: space-between;
@@ -18,9 +24,7 @@ a {
 
 
 
-.navbar {
-    padding: 0;
-}
+
 
 .navbar h4 {
   font-size: 24px;
