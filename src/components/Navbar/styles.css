@@ -9,21 +9,19 @@ a {
 }
 
 .navbar {
-  padding: 0;
-  height: 70px;
+  padding: 15px 0;
+  
+  
 }
 
 
 .container-fluid {
     padding-left: 20px;
-    padding-right: 24px;
+    padding-right: 0px;
     display: flex;
     justify-content: space-between;
     
 }
-
-
-
 
 
 .navbar h4 {
@@ -59,11 +57,28 @@ a {
     width: 170px;
 }
 
-.active {
-    font-weight: 700;
+.main-menu a {
+  color: #00285f;
 }
 
-@media (min-width: 762px) {
+.main-menu a:hover{
+  color: #00285f;
+}
+
+.main-menu a.active {
+  font-weight: 700;
+    color: #00285f;
+}
+
+@media (min-width: 576px) {
+
+.navbar-toggler {
+  width: 100px;
+}
+
+}
+
+@media (min-width: 768px) {
     .collapse{
         display: flex;
         justify-content: flex-end;
@@ -71,13 +86,13 @@ a {
     }
 
     .container-fluid {
-        padding: 20px 24px;
+        padding: 5.6px 24px;
     }
 
 }
 @media (min-width: 1280px) {
 
     .container-fluid {
-        padding: 20px 150px;
+        padding: 5.6px 150px 5.6px 150px;
     }
 }

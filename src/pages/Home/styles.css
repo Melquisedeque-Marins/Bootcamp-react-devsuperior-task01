@@ -34,7 +34,7 @@
     margin: auto;
 }
 
-.card-text h3 {
+.card-text h2 {
     font-size: 22px;
     margin-bottom: 13px;
 }
@@ -70,7 +70,7 @@
     
 }
 
-.button-card h3 {
+.button-card h2 {
     font-size: 18px;
     font-weight: 400;
     color: #585858;
@@ -92,12 +92,13 @@
         margin: 22px 101px 19px 101px;
     }
 
-    .card-text h3 {
+    .card-text h2 {
         font-size: 36px;
         margin-bottom: 0px;
     }
 
     .card-text p {
+        padding: 0;
         font-size: 18px;
         font-weight: 400;
         width: 420px;
@@ -114,7 +115,7 @@
         margin: 40px 15px 40px 0px;
     }
 
-    .button-card h3 {
+    .button-card h2 {
         margin-bottom: 0px;
     }
 }

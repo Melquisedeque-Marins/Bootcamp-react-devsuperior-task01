@@ -1,16 +1,12 @@
 import './assets/styles/custom.scss';
 import './App.css';
 
-import CarCard from 'components/CarCard';
-import Catalogo from 'pages/Catalogo';
-import Navbar from 'components/Navbar';
-import SearchButton from 'components/SearchButton';
+import Routes from 'Routes';
 
 function App() {
   return (
     <>
-    <Navbar />
-    <Catalogo />
+    <Routes />
         
     </>
   );
